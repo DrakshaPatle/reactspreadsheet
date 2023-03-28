@@ -1,0 +1,24 @@
+.App {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .theme-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .spreadsheet-container {
+    background-color: #555;
+  }
+  
+  .spreadsheet-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+
+ .e-spreadsheet .e-cell, .e-spreadsheet .e-headercell {
+  background-color: black;
+  color: white;
+} 

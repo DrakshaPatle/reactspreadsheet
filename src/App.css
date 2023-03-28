@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+
+
+@import url("https://cdn.syncfusion.com/ej2/bootstrap5.css");
+
+.App{
+  margin: 2%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .App {
+  background-color: #000000;
+  color: #ffffff;
+}
+ */
+
+/* .e-spreadsheet .e-cell, .e-spreadsheet .e-headercell {
+  background-color: black;
+  color: white;
+} */
+body {
+  margin: 0;
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  margin-top: 30px;
+  margin-left: 1300px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background-color: #a06868;
 }
 
-.App-link {
-  color: #61dafb;
+.spreadsheet-container {
+  background-color: #644e4e;
+  border-radius: 8px;
+  
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-left: -30px;
+  margin-right: -10px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.spreadsheet-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.spreadsheet-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.theme-button:focus {
+  outline: none;
+}
+
+.theme-button:hover {
+  background-color: #f0f0f0;
 }

@@ -1,0 +1,23 @@
+/* .App {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .theme-light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .spreadsheet-container {
+    background-color: #f5f5f5;
+  }
+  
+  .spreadsheet-light {
+    background-color: #fff;
+    color: #333;
+  }
+   */
+  .e-spreadsheet .e-cell, .e-spreadsheet .e-headercell {
+  background-color: white;
+  color: black;
+} 
