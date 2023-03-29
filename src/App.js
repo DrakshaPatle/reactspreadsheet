@@ -43,8 +43,8 @@ function App() {
         
           className={`spreadsheet-${themeMode}`}
           // cssClass='spreadsheet-dark'
-          width={1530}
-          height={830}
+          width={1930}
+          height={1030}
           rowCount={700}
           marginTop={400}
           
