@@ -1,4 +1,4 @@
-.App {
+/* .App {
     background-color: #333;
     color: #fff;
   }
@@ -16,9 +16,50 @@
     background-color: #333;
     color: #fff;
   }
-  
-
- .e-spreadsheet .e-cell, .e-spreadsheet .e-headercell {
+   */
+.body{
   background-color: black;
+}
+ .e-spreadsheet .e-cell, .e-spreadsheet .e-headercell, .e-ribbon ,.e-rowheader{
+  background-color: rgb(44, 42, 42);
   color: white;
-} 
+
+ }
+
+ .e-spreadsheet .e-ribbon {
+  background-color: rgb(21, 21, 21);
+  color: white;
+}
+
+/* 
+.e-spreadsheet .e-sheet-tab-panel  {
+  font-weight: bold;
+  background-color: rgb(54, 52, 52);
+  color:white
+ 
+
+} */
+
+.e-spreadsheet .e-sheet-tab-panel  {
+  font-weight: bold;
+  background-color: rgb(9, 9, 9);
+  /* color: black; */
+
+}
+
+.e-spreadsheet .e-filter-popup .e-dlg-content {
+  background-color: #11a53b;
+}
+
+.e-spreadsheet .e-formula-bar-panel {
+  background-color: #444744;
+  color: white;
+  border: none;
+}
+.e-spreadsheet.e-header-toolbar {
+  background-color: #3a7db0
+}
+.e-spreadsheet.e-row-header {
+
+  background-color: #08f108;
+}

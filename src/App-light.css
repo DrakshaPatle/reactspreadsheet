@@ -1,23 +1,46 @@
-/* .App {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  .theme-light {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  .spreadsheet-container {
-    background-color: #f5f5f5;
-  }
-  
-  .spreadsheet-light {
-    background-color: #fff;
-    color: #333;
-  }
-   */
-  .e-spreadsheet .e-cell, .e-spreadsheet .e-headercell {
+.App {
+  background-color: #fff;
+  color: #333;
+}
+
+.theme-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.spreadsheet-container {
+  background-color: #f5f5f5;
+}
+
+.spreadsheet-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.e-spreadsheet .e-cell,
+.e-spreadsheet .e-headercell .e-ribbon {
   background-color: white;
   color: black;
-} 
+}
+
+.e-spreadsheet .e-ribbon {
+  background-color: rgb(230, 250, 222);
+  color: black;
+}
+.e-spreadsheet .e-sheet-tab-panel  {
+  font-weight: bold;
+  background-color: rgb(230, 250, 222);
+  /* color: black; */
+
+}
+
+
+
+/* .e-spreadsheet .e-sheet-tab-panel {
+  background: #08fbfb;
+} */
+.e-spreadsheet .e-sort-filter-icon {
+  background-color: hsl(209, 35%, 43%);
+  content: '\e306';
+}
+

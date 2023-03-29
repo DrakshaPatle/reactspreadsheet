@@ -35,19 +35,20 @@ body {
 }
 
 .spreadsheet-container {
-  background-color: #644e4e;
+  
   border-radius: 8px;
   
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 40px;
-  overflow: hidden;
-  margin-top: -30px;
+  /* overflow: hidden; */
+   margin-top: -30px; 
   margin-left: -30px;
   margin-right: -10px;
+  margin-bottom: -10px;
 
 }
 
-.spreadsheet-light {
+ .spreadsheet-light {
   background-color: #fff;
   color: #333;
 }
@@ -55,7 +56,7 @@ body {
 .spreadsheet-dark {
   background-color: #333;
   color: #fff;
-}
+} 
 
 .theme-button {
   position: absolute;
@@ -68,6 +69,12 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+/* .e-btn{
+  margin-bottom: 4px;
+  height: 25px;
+
+
+} */
 
 .theme-button:focus {
   outline: none;
@@ -75,4 +82,24 @@ body {
 
 .theme-button:hover {
   background-color: #f0f0f0;
+}
+
+
+.e-spreadsheet .e-formula-bar-panel .e-formula-bar {
+  /* background-color: rgb(126, 154, 113); */
+  font-weight: bold;
+}
+
+
+.e-spreadsheet .e-sheet-panel .e-sheet {
+  border-color: #c30808;
+}
+/* .e-spreadsheet .e-row-header .e-header-cell {
+  color: #0000FF !important;
+} */
+
+
+.e-icons .e-font-color-icon 
+{
+  color:red
 }
