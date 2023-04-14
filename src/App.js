@@ -20,9 +20,6 @@ function App() {
     setThemeMode(themeMode === 'light' ? 'dark' : 'light');
   };
 
-
-
-
   useEffect(() => {
     import(`./App-${themeMode}.css`).then();
   }, [themeMode]);
@@ -74,3 +71,5 @@ function App() {
 
           }
 export default App;
+
+

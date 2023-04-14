@@ -70,10 +70,9 @@ body {
   cursor: pointer;
 }
 /* .e-btn{
-  margin-bottom: 4px;
+  margin-bottom: 40px; 
   height: 25px;
-
-
+  background-color: #c30808;
 } */
 
 .theme-button:focus {
